@@ -1,20 +1,72 @@
-.seat-chart {
-  width: 90%;
-  margin: 0 auto;
+#mock {
+  position: fixed;
+  width:20%;
 }
+
+div{
+  border-radius: 10%;
+
+}
+
+.seat-chart {
+
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10%;
+
+}
+#stage {
+  z-index: -1;
+  position: relative;
+  margin: 0% 20% 10% 15%;
+  width:50%;
+  height: auto;
+  display:inline-block;
+  border-radius: 5%;
+  background-color: black;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 300%;
+  padding: 2% 2% 2% 2%;
+}
+
 
 .available {
   background-color: green;
-  width: 24%;
-  margin: auto;
+  width: 15%;
+  margin: 3px 0px 3px 0px ;
   min-height: 100px;
   display: inline-block;
+
 }
 
 .reserved {
   background-color: red;
-  width: 24%;
-  margin: auto;
-  min-height: 100px;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  height: 100px;
   display: inline-block;
+}
+
+#frontrow{
+
+  margin-top: 0%;
+}
+
+
+
+#col1 {
+  padding: 
+
+
+} 
+
+#col2345 {
+
+}
+
+#col6 {
+
+
 }
