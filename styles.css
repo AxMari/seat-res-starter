@@ -8,27 +8,49 @@
 
 
 header {
-  background-color: #0F6753;
+  background-color: rgb(171, 183, 108);
   position: fixed;
-  height: 150px;
+  height: 160px;
   width: 100%;
-  border-bottom: 10px solid #473A6C;
   text-align: center;
-  margin: -20px 0px 0px 0px;
+  margin: -10px 0px 0px 0px;
 
+}
+img {
+  max-width: 90%
+
+}
+
+#logo {
+  position:relative;
+  background-color: #0F6753;
+  height: 130px;
+  width: 40%;
+  border: 5px solid #473A6C;
+  border-radius: 50%;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 100;
 }
 
 .main {
   margin: 150px;
+  height: 1000px;
 
 }
 
 #footer {
-  background-color: #0F6753;
+  background-color: rgb(171, 183, 108);
   position:fixed;
   width:100%;
   bottom:0;
-  height:35px;
+  height:50px;
+  text-align: left;
+  display: inline;
+}
+.icons {
+  text-align: right;
+  margin-bottom: 20px;
 }
 
 .seat-chart {
