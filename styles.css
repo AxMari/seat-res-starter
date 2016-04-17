@@ -9,16 +9,14 @@ div{
 }
 
 .seat-chart {
-
-  width: 70%;
+/*  position: absolute;*/
+  width: 90%;
   margin: 0 auto;
   margin-top: 10%;
 
 }
 #stage {
-  z-index: -1;
-  position: relative;
-  margin: 0% 20% 10% 15%;
+  margin: 0% 23% 10% 23%;
   width:50%;
   height: auto;
   display:inline-block;
@@ -35,38 +33,82 @@ div{
 .available {
   background-color: green;
   width: 15%;
-  margin: 3px 0px 3px 0px ;
-  min-height: 100px;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
   display: inline-block;
-
 }
+
 
 .reserved {
   background-color: red;
   width: 15%;
   margin: 3px 0px 3px 0px;
-  height: 100px;
+  min-height: 125px;
   display: inline-block;
 }
 
-#frontrow{
 
-  margin-top: 0%;
+@media(max-width:990px){
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
 }
 
 
 
-#col1 {
-  padding: 
+@media (max-width: 650px) {
+  #stage{
+    font-size: 200%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
 
 
-} 
+}
+@media (max-width: 490px) {
+  #stage{
+    font-size: 150%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
 
-#col2345 {
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
+
 
 }
 
-#col6 {
+@media (max-width: 380px) {
+  #stage {
+    font-size: 100%;
+  }
+  .available {
+    margin: 1px 0px 1px 0px ;
+    min-height: 50px;
+  }
+
+  .reserved {
+    margin: 1px 0px 1px 0px;
+    min-height: 50px;
+  }
+
 
 
 }
