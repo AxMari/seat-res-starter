@@ -1,5 +1,4 @@
 
-
 .container {
   margin: 0px;
   padding: 0px;
@@ -48,28 +47,145 @@ img {
   text-align: left;
   display: inline;
 }
+
 .icons {
   text-align: right;
   margin-bottom: 20px;
+  position: fixed;
+  width:20%;
+}
+
+div{
+  border-radius: 10%;
 }
 
 .seat-chart {
+/*  position: absolute;*/
   width: 90%;
   margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+ 
+
 }
+#stage {
+  margin: 0% 23% 10% 23%;
+  width:50%;
+  height: auto;
+  display:inline-block;
+  border-radius: 5%;
+  background-color: black;
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 300%;
+  padding: 2% 2% 2% 2%;
+}
+
 
 .available {
   background-color: green;
-  width: 24%;
-  margin: auto;
-  min-height: 100px;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
   display: inline-block;
 }
 
+
 .reserved {
   background-color: red;
-  width: 24%;
-  margin: auto;
-  min-height: 100px;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
   display: inline-block;
+}
+
+fieldset {
+  padding-top: 20px;
+  text-align: center;
+  border-top: 2px solid #d9d9d9;
+}
+
+legend {
+  border:none;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5%;
+  border: 2px solid #d9d9d9;
+}
+
+
+
+
+
+
+@media(max-width:990px){
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+  #stage{
+    font-size: 200%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
+
+
+}
+
+
+@media (max-width: 490px) {
+  #stage{
+    font-size: 150%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
+
+
+}
+
+@media (max-width: 380px) {
+  #stage {
+    font-size: 100%;
+  }
+  .available {
+    margin: 1px 0px 1px 0px ;
+    min-height: 50px;
+  }
+
+  .reserved {
+    margin: 1px 0px 1px 0px;
+    min-height: 50px;
+  }
+
+
+
 }
