@@ -1,3 +1,36 @@
+
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+header {
+  background-color: #0F6753;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  border-bottom: 10px solid #473A6C;
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+
+}
+
+.main {
+  margin: 150px;
+
+}
+
+#footer {
+  background-color: #0F6753;
+  position:fixed;
+  width:100%;
+  bottom:0;
+  height:35px;
+}
+
 .seat-chart {
   width: 90%;
   margin: 0 auto;
