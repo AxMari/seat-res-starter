@@ -1,11 +1,49 @@
-#mock {
-  position: fixed;
-  width:20%;
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
+
+
+header {
+
+  background-color: rgb(171, 183, 108);
+  position: fixed;
+  height: 140px;
+  width: 100%;
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+
+}
+
+
+#logo {
+  position:relative;
+  background-color: #0F6753;
+  height: 80%;
+  width: 40%;
+  border: 5px solid #473A6C;
+  border-radius: 20%;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 100;
+}
+#logo > img {
+  margin-top: 7px;
+  max-width: 90%;
+  height: 79%;
+
+}
+.main {
+  margin-top: 170px;
+
+}
+
+
 
 div{
   border-radius: 10%;
-
 }
 
 .seat-chart {
@@ -52,6 +90,7 @@ div{
 
 fieldset {
   padding-top: 20px;
+  margin-bottom: 10%;
   text-align: center;
   border-top: 2px solid #d9d9d9;
 }
@@ -67,9 +106,29 @@ input {
   border: 2px solid #d9d9d9;
 }
 
+#footer {
+  background-color: rgb(171, 183, 108);
+  position:fixed;
+  width:100%;
+  bottom:0;
+  height:75px;
+  text-align: left;
+  display: inline;
+  padding: 2%;
+  -bottom:;
+}
 
+.footnote {
+  display: inline-block;
 
+}
 
+.icons {
+  text-align: right;
+  z-index: 1;
+  margin-top: -20px;
+
+}
 
 
 @media(max-width:990px){
