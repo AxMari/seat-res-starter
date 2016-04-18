@@ -38,9 +38,7 @@ header {
 
 #small {
   display:none;
-
 }
-
 
 .main {
   margin: 150px 2% 0px 2%;
@@ -117,6 +115,7 @@ input {
   text-align: left;
   display: inline-block;
   padding: 2%;
+  margin-bottom: 0px;
 }
 
 .footnote {
@@ -142,8 +141,6 @@ input {
     margin: 2px 0px 2px 0px;
     min-height: 100px;
   }
-
-
 }
 
 
@@ -161,8 +158,6 @@ input {
     margin: 2px 0px 2px 0px;
     min-height: 80px;
   }
-
-
 }
 
 
