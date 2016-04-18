@@ -3,11 +3,11 @@
   margin: 0px;
   padding: 0px;
   width: 100%;
+  font-family: verdana;
 }
 
 
 header {
-
   background-color: rgb(171, 183, 108);
   position: fixed;
   height: 140px;
@@ -33,22 +33,24 @@ header {
   margin-top: 7px;
   max-width: 90%;
   height: 79%;
+}
+
+
+#small {
+  display:none;
 
 }
+
+
 .main {
-  margin: 160px 2% 0px 2%;
-
-
+  margin: 150px 2% 0px 2%;
 }
-
-
 
 div{
   border-radius: 10%;
 }
 
 .seat-chart {
-/*  position: absolute;*/
   width: 90%;
   margin: 0 auto;
   margin-top: 10%;
@@ -62,7 +64,7 @@ div{
   width:50%;
   height: auto;
   display:inline-block;
-  border-radius: 5%;
+  border-radius: 3%;
   background-color: black;
   color:white;
   text-align: center;
@@ -82,7 +84,7 @@ div{
 
 
 .reserved {
-  background-color: red;
+  background-color: #bcbcbc;
   width: 15%;
   margin: 3px 0px 3px 0px;
   min-height: 125px;
@@ -113,7 +115,7 @@ input {
   width:100%;
   bottom:0;
   height:75px;
-  text-align: centers;
+  text-align: left;
   display: inline-block;
   padding: 2%;
   -bottom:;
@@ -142,6 +144,8 @@ input {
     margin: 2px 0px 2px 0px;
     min-height: 100px;
   }
+
+
 }
 
 
@@ -176,6 +180,12 @@ input {
   .reserved {
     margin: 2px 0px 2px 0px;
     min-height: 60px;
+  }
+  #big {
+    display:none;
+  }
+  #small {
+    display:inline;
   }
 
 
