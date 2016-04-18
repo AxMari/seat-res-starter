@@ -14,7 +14,7 @@ header {
   width: 100%;
   text-align: center;
   margin: -10px 0px 0px 0px;
-
+  border-bottom: 2px solid #5c8840;
 }
 
 
@@ -113,12 +113,10 @@ input {
   background-color: rgb(171, 183, 108);
   position:relative;
   width:100%;
-  bottom:0;
   height:75px;
   text-align: left;
   display: inline-block;
   padding: 2%;
-  -bottom:;
 }
 
 .footnote {
@@ -204,7 +202,25 @@ input {
     margin: 1px 0px 1px 0px;
     min-height: 50px;
   }
+}
 
+@media (max-width: 290px) {
+  .seat-chart {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+  }
+  .available {
+    margin: 1px 0px 1px 0px ;
+    min-height: 45px;
+  }
+
+  .reserved {
+    margin: 1px 0px 1px 0px;
+    min-height: 45px;
+  }
 
 
 }
