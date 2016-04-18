@@ -90,7 +90,7 @@ div{
 
 fieldset {
   padding-top: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   text-align: center;
   border-top: 2px solid #d9d9d9;
 }
@@ -108,12 +108,12 @@ input {
 
 #footer {
   background-color: rgb(171, 183, 108);
-  position:fixed;
+  position:relative;
   width:100%;
   bottom:0;
   height:75px;
-  text-align: left;
-  display: inline;
+  text-align: centers;
+  display: inline-block;
   padding: 2%;
   -bottom:;
 }
