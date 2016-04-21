@@ -41,7 +41,7 @@ header {
 }
 
 .main {
-  margin: 150px 2% 0px 2%;
+  margin: 150px 10% 0px 10%;
 }
 
 div{
@@ -58,19 +58,26 @@ div{
 
 }
 #stage {
-  margin: 0% 23% 10% 23%;
-  width:50%;
+  width:40%;
   height: auto;
-  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   border-radius: 3%;
   background-color: black;
   color:white;
-  text-align: center;
   vertical-align: middle;
   font-size: 300%;
-  padding: 2% 2% 2% 2%;
+  padding: 2%;
 }
 
+#stage p {
+  text-align: center;
+}
+
+.seats {
+  text-align: center;
+}
 
 .available {
   background-color: green;
@@ -118,15 +125,12 @@ input {
   margin-bottom: 0px;
 }
 
-.footnote {
-  display: inline-block;
-
-}
 
 .icons {
-  text-align: right;
+  text-align: left;
   z-index: 1;
   margin-top: -28px;
+  margin-left: 80px;
 
 }
 
@@ -180,10 +184,7 @@ input {
   #small {
     display:inline;
   }
-
-
-}
-
+ 
 @media (max-width: 380px) {
   #stage {
     font-size: 100%;
@@ -197,6 +198,7 @@ input {
     margin: 1px 0px 1px 0px;
     min-height: 50px;
   }
+
 }
 
 @media (max-width: 290px) {
