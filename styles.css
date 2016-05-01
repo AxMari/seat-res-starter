@@ -46,14 +46,16 @@ header {
 
 div{
   border-radius: 10%;
+
 }
 
 .seat-chart {
   width: 90%;
   margin: 0 auto;
   margin-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 25px;
   margin-bottom: 5%;
+
  
 
 }
@@ -77,7 +79,17 @@ div{
 
 .seats {
   text-align: center;
+/*  border: 1px solid black;*/
 }
+
+/*
+.chair {
+  background-color: green;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
+  display: inline-block;
+}*/
 
 .available {
   background-color: green;
@@ -94,6 +106,12 @@ div{
   margin: 3px 0px 3px 0px;
   min-height: 125px;
   display: inline-block;
+}
+
+#seatform{
+  display: inline-block;
+  width:19%;
+  margin:2% 35% ;
 }
 
 fieldset {

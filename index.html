@@ -5,6 +5,8 @@
   <title>Seat Reservation App</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="jQuery.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </head>
 <body class="container">
   <header>
@@ -26,33 +28,46 @@
    
       <div id="stage"><p>STAGE</p></div>
         <div class="seats">
-          <div class="reserved"></div>
+          <div class="available" id ="1" ><p>1</p></div>
+          <div class="available" id ="2"><p>2</p></div>
+          <div class="available" id ="3" ><p>3</p></div>
+          <div class="available" id ="4" ><p>4</p></div>
+          <div class="available" id ="5" ><p>5</p></div>
+          <div class="available" id ="6" ><p>6</p></div>    
+       <!--    <div class="available"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
-          <div class="available"></div>    
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
-          <div class="reserved"></div>
           <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div>
+          <div class="available"></div> -->
         </div>
       </div>
   </section>
+
+
+
+
+
+    <form id="seatform">
+        <input id="name" type="text" name="name" placeholder="Name" required="required"/>
+        <input id="email" type="email" name="email" placeholder="E-mail" required="required"/>
+        <input id="seat" type="text" name="seat" placeholder="Seat"/>
+        <input id="button" type="button" value="submit" name="submit">
+    </form>
+
+
 
       <fieldset>
         <form action="#" method="post">
@@ -61,7 +76,7 @@
           <input type="text" name="name" required="required"/></label>
           <label>E-mail
           <input type="email" name="email" required="required"/></label>
-          <input type="submit" value="submit"/>
+          <input id="submit" type="submit" value="submit"/>
         </form>
       </fieldset> 
 
